@@ -1,0 +1,379 @@
+html{
+    margin: auto;
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.generalHeader {
+    display: table;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.links {
+    display: inline-block;
+    float: right;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #4e5981;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 0px 12px 0px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .links a:hover {
+        color: #a3c3e2;
+    }
+
+    .visited {
+        color: white;
+        background-color: #4e5981;
+        padding: 12px 0px 12px 0px;
+        width: 100px;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+.generalHeaderLeftDiv {
+    display: table-cell;
+    width: 30%;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #4e5981;
+}
+
+.generalHeaderRightDiv {
+    display: table-cell;
+    width: 70%;
+    padding-right: 20px;
+}
+
+.longButton {
+    width: 200px;
+    float: left;
+}
+
+.submitButton {
+    float: none;
+    cursor: pointer;
+}
+
+.generalFooter {
+    background-image: radial-gradient(circle, #a7cdf2, #4e5981);
+    border-radius: 6px;
+    border-style: groove;
+    border-color: lightgray;
+    color: white;
+    padding: 8px 20px 8px 20px;
+}
+
+    .generalFooter span {
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+.desno{
+    float: right;
+}
+
+.content {
+    background-color: #e7eff7;
+    border-radius: 6px;
+    border-style: groove;
+    border-color: lightgray;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contentLeft {
+    width: 50%;
+    flex: 1 1 0;
+}
+
+.contentRight {
+    padding-right: 20px;
+    margin-top: 10px;
+    width: 50%;
+    vertical-align: middle;
+    text-align: right;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.contentHobija {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    flex: 1 1 0;
+}
+
+.imgHobija {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.imgContentRight {
+    max-width: 80%;
+    max-height: 360px;
+    border-radius: 6px;
+}
+
+.contentBottom {
+    width: 100%;
+    flex: 100%;
+    order: 3;
+}
+
+h1{
+    vertical-align: middle;
+}
+
+.pasus {
+    font-size: 14px;
+    padding-top: 6px;
+    text-align: justify;
+}
+
+.divVestini {
+    width: 100%;
+    text-align: center;
+}
+
+.divVestiniIcon {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.divVestiniText {
+    width: 80%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+.imgIcon {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#Nagradi {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+    #Nagradi td, #Nagradi th {
+        border: 1px solid #d1d1d1;
+        padding: 8px;
+    }
+
+    #Nagradi tr:nth-child(even) {
+        background-color: whitesmoke;
+    }
+
+    #Nagradi tr:hover {
+        background-color: #ddd;
+    }
+
+    #Nagradi th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4e5981;
+        color: white;
+    }
+
+details {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+    details > summary {
+        font-weight: bold;
+        background-color: whitesmoke;
+        padding: 8px;
+    }
+
+        details > summary:hover {
+            background-color: #e8e8e8;
+            cursor: pointer;
+        }
+
+    details[open] {
+        margin-top: 10px;
+    }
+
+        details[open] summary {
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+.contentTop {
+    align-items: baseline;
+}
+
+.contentKontakt {
+    display: block;
+    padding-top: 10px;
+}
+
+.kontaktName {
+    width: 50%;
+    display: inline-block;
+}
+
+.lastName {
+    float: right;
+}
+
+.divSubmitButton {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border-color: transparent;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+    fieldset label {
+        line-height: 20px;
+    }
+
+    fieldset input, select, textarea {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+
+        fieldset input::placeholder {
+            font-size: 14px;
+        }
+
+@media screen and (max-width: 780px) {
+    .generalHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .generalHeaderLeftDiv {
+        display: block;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .topMenu {
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .generalHeaderRightDiv {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .content {
+        display: block;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contentLeft {
+        width: 100%;
+    }
+
+    .contentRight {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .imgContentRight {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 360px;
+    }
+
+    .divVestini {
+        margin-top: 60px;
+    }
+
+    .divVestiniText {
+        margin-top: 0px;
+    }
+
+    .contentHobija {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .kontaktName {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .links {
+        font-size: 14px;
+        width: 80px;
+        text-align: center;
+    }
+
+    .visited {
+        width: 80px;
+    }
+
+    .longButton {
+        width: 200px;
+        float: left;
+        font-size: 14px;
+    }
+
+    .submitButton {
+        float: none;
+    }
+
+    #Nagradi {
+        font-size: 14px;
+    }
+
+    .divVestini {
+        margin-top: 50px;
+    }
+
+    .divVestiniIcon {
+        margin-top: 16px;
+    }
+}
